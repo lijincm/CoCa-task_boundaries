@@ -1,4 +1,4 @@
-# Complementary Calibration: Boosting General Continual Learning with Collaborative  Distillation and Self-Supervision
+# Complementary Calibration with Task Boundaries
 
 This repository contains the PyTorch implementation for Complementary Calibration with task boundaries in the training stage
 

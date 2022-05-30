@@ -1,6 +1,6 @@
 # Complementary Calibration with Task Boundaries
 
-This repository contains the PyTorch implementation for Complementary Calibration with task boundaries in the training stage
+This repository contains the PyTorch implementation for Complementary Calibration with task boundaries at the training stage
 
 If you have any questions on this paper, feel free to create an issue.
 

@@ -3,26 +3,20 @@
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
 
-from datasets.seq_mnist import SequentialMNIST
 from datasets.seq_cifar10 import SequentialCIFAR10
 from datasets.seq_cifar100 import SequentialCIFAR100
-from datasets.rot_mnist import RotatedMNIST
 from datasets.seq_tinyimagenet import SequentialTinyImagenet
-from datasets.mnist_360 import MNIST360
 from datasets.utils.continual_dataset import ContinualDataset
 from argparse import Namespace
 
 NAMES = {
-    SequentialMNIST.NAME: SequentialMNIST,
     SequentialCIFAR10.NAME: SequentialCIFAR10,
     SequentialCIFAR100.NAME: SequentialCIFAR100,
-    RotatedMNIST.NAME: RotatedMNIST,
-    SequentialTinyImagenet.NAME: SequentialTinyImagenet,
-    MNIST360.NAME: MNIST360
+    SequentialTinyImagenet.NAME: SequentialTinyImagenet
 }
 
 GCL_NAMES = {
-    MNIST360.NAME: MNIST360
+    
 }
 
 

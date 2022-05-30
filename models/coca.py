@@ -25,7 +25,7 @@ def get_parser() -> ArgumentParser:
     return parser
 """ # for cifar-10
 def rotate_img(img, s):
-    transform = transforms.RandomResizedCrop(size=(64, 64), scale=(0.66, 0.67), ratio = (0.99,1.00))
+    transform = transforms.RandomResizedCrop(size=(32, 32), scale=(0.66, 0.67), ratio = (0.99,1.00))
     img = transform(img)
     return torch.rot90(img, s, [-1, -2])
 """
